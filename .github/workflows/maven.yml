@@ -8,5 +8,6 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           java-version: "21"
+          distribution: "temurin"
       - name: mvn verify
         run: mvn verify
