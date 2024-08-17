@@ -3,7 +3,7 @@ package org.example.starter.processor
 import org.apache.nifi.util.TestRunners
 import org.junit.jupiter.api.Test
 
-class MyProcessorTest {
+class ExampleProcessorTest {
     private val testRunner = TestRunners.newTestRunner(ExampleProcessor::class.java)
 
     @Test
