@@ -10,4 +10,4 @@ jobs:
           java-version: "21"
           distribution: "zulu"
       - name: mvn verify
-        run: ./mvn verify
+        run: ./mvnw verify
