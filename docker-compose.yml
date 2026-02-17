@@ -1,6 +1,6 @@
 services:
   nifi:
-    image: apache/nifi:2.0.0-M4
+    image: apache/nifi:2.7.2
     volumes:
       - nifi_conf:/opt/nifi/nifi-current/conf
       - nifi_extensions:/opt/nifi/nifi-current/extensions
